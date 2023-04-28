@@ -1,0 +1,68 @@
+﻿<Page x:Class="ADOCrud.Pages.Delete.DeleteSelectPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ADOCrud.Pages.Delete"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="DeleteSelectPage">
+
+    <Border Background="wheat">
+        <Grid>
+
+
+            <Button
+                x:Name="deletecourse_btn"
+                Click="deletecourse_click"
+                Width="200"
+                Height="30"
+                Margin="40 0 0 0"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Left"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                materialDesign:ButtonAssist.CornerRadius="10">
+                <TextBlock Text="DELETE COURSE"/>
+            </Button>
+
+            <Button
+                x:Name="deletestudent_btn"
+                Click="deletestudent_click"
+                Width="200"
+                Height="30"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                materialDesign:ButtonAssist.CornerRadius="10">
+                <TextBlock Text="DELETE STUDENT"/>
+            </Button>
+
+            <Button
+                x:Name="deleteteacher_btn"
+                Click="deleteteacher_click"
+                Width="200"
+                Height="30"
+                Margin="0 0 40 0"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Right"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                materialDesign:ButtonAssist.CornerRadius="10">
+                <TextBlock Text="DELETE TEACHER"/>
+            </Button>
+
+            <Button
+                    x:Name="exitcreate_btn"
+                    Click="exitbtn_click"   
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left"
+                    Margin="20 20 0 0"
+                    Foreground="#F54126"
+                    Style="{StaticResource MaterialDesignIconForegroundButton}">
+                <materialDesign:PackIcon Kind="Backburger" />
+            </Button>
+
+            <Frame x:Name="deleteFrame" NavigationUIVisibility="Hidden" />
+        </Grid>
+    </Border>
+</Page>

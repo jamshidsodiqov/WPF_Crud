@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\Create\CourseCreate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Create\CreateSelectPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Create\StudentCreate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Create\TeacherCreate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Delete\CourseDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Delete\DeleteSelectPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Delete\StudentDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Delete\TeacherDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\GetAll\CourseGetAll.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\GetAll\GetAllSelectPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\GetAll\StudentGetAll.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\GetAll\TeacherGetAll.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Get\CourseGet.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Get\GetSelectPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Get\StudentGet.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Get\TeacherGet.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Update\CourseUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Update\StudentUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Update\TeacherUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Update\UpdateSelectPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Create\CourseCreate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Create\CreateSelectPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Create\StudentCreate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Create\TeacherCreate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Delete\CourseDelete.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Delete\DeleteSelectPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Delete\StudentDelete.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Delete\TeacherDelete.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\GetAll\CourseGetAll.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\GetAll\GetAllSelectPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\GetAll\StudentGetAll.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\GetAll\TeacherGetAll.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Get\CourseGet.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Get\GetSelectPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Get\StudentGet.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Get\TeacherGet.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Update\CourseUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Update\StudentUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Update\TeacherUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Update\UpdateSelectPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
